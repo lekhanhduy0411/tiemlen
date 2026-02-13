@@ -4,6 +4,10 @@ import User, { IUser } from '../models/User';
 
 export interface AuthRequest extends Request {
   user?: IUser;
+  body: any;
+  params: any;
+  query: any;
+  headers: any;
 }
 
 // Xác thực JWT token
