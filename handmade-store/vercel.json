@@ -1,0 +1,9 @@
+{
+  "buildCommand": "cd handmade-store/client && npm install && npm run build",
+  "outputDirectory": "handmade-store/client/dist",
+  "installCommand": "echo 'Skipping root install'",
+  "framework": "vite",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/" }
+  ]
+}
